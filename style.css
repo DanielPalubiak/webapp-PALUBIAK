@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --main-font: 'Roboto', sans-serif;
+    --color-primary: #ffffff;
+    --color-secondary: #ff0000;
+    --color-contacts: #777777;
+    --color-highlight: gray;
+    --text-color: #fff;
+    --bg-color: #000000;
+
+
+}
+
+body {
+    font-family: var(--main-font);
+    color: var(--color-primary);
+    background-color: var(--bg-color);
+    text-align: center;
+}
+
+
+button {
+    display: inline-block;
+    padding: 0.4rem 1rem;
+    background-color: red;
+    border: 1px solid var(--color-secondary);
+    border-radius: 0.4rem;
+    color: var(--color-primary);
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    transition: all 0.3 ease;
+
+}
+button:hover {
+    background-color: rgb(0, 0, 0);
+    color: red;
+}
