@@ -3,7 +3,7 @@
 :root {
     --main-font: 'Roboto', sans-serif;
     --color-primary: #ffffff;
-    --color-secondary: #ff0000;
+    --color-secondary: #0d00ff;
     --color-contacts: #777777;
     --color-highlight: gray;
     --text-color: #fff;
@@ -35,5 +35,5 @@ button {
 }
 button:hover {
     background-color: rgb(0, 0, 0);
-    color: red;
+    color: blue;
 }
